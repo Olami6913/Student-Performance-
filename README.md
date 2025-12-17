@@ -8,7 +8,8 @@ The goal is to understand how demographic and educational factors influence acad
 
 ## 🧪 Data
 - Raw data stored in `data/`
-- Cleaned data stored in `data_processed/`
+- C
+- Data was processed and cleaned in the notebook.
 - Dataset includes scores and student background information
 
 ---
