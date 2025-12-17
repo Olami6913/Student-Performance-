@@ -1,59 +1,33 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "f2ae3c4e-5a51-4a6d-a2c8-b522831af628",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "---\n",
-    "\n",
-    "## 🧪 Data\n",
-    "- Raw data is stored in `data/`.  \n",
-    "- Cleaned and transformed data is stored in `data_processed/`.  \n",
-    "- Processing includes:\n",
-    "  - Handling missing values  \n",
-    "  - Feature selection  \n",
-    "  - Data type corrections  \n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🔍 Analysis Workflow\n",
-    "1. Load raw climate and fire data  \n",
-    "2. Clean and preprocess datasets  \n",
-    "3. Perform exploratory data analysis (EDA)  \n",
-    "4. Analyze fire risk patterns  \n",
-    "5. Visualize relationships between climate variables and fire risk  \n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📊 Outputs\n",
-    "- All plots and figures generated during the analysis are saved automatically in the `outputs/` folder.  \n",
-    "\n",
-    "---"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# 🎓 Student Performance Analysis
+
+## 📌 Project Overview
+This project explores student performance in math, reading, and writing.
+The goal is to understand how demographic and educational factors influence academic outcomes.
+
+---
+
+## 🧪 Data
+- Raw data stored in `data/`
+- Cleaned data stored in `data_processed/`
+- Dataset includes scores and student background information
+
+---
+
+## 🔍 Analysis Workflow
+1. Load and clean data
+2. Perform exploratory data analysis (EDA)
+3. Visualize score distributions and relationships
+4. Interpret patterns and correlations
+
+---
+
+## 📊 Key Findings
+- Reading scores are slightly higher than math and writing
+- Test preparation improves performance
+- Parental education and lunch type influence outcomes
+
+---
+
+## ▶️ How to Run
+```bash
+jupyter lab
